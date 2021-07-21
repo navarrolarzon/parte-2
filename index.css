@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'calibri';
+}
+.Menu{
+    width: 900px;
+    margin: 50px;
+}
+header{
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+}
+img{
+    height: 50%;
+    float: all left;
+    padding: 8px;
+}
+nav{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 37px;
+    float: left;
+    padding: 12px 0;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+nav ul li a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background:rgb(216, 176, 176);
+    height: 5px;
+    top: 0;
+    position: absolute;
+}
+contenedor img{
+    margin: auto;
+    display: list-item;
+
+}
